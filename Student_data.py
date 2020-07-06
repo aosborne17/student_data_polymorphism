@@ -21,10 +21,10 @@ Andrew = Student_Data("Andrew", "Osborne", 21, "British/Caribbean", 21_23_46)
 
 
 
-#Andrew.email()
+Andrew.email()
 
 
-print(Andrew.bank_sort_code)
+# print(Andrew.bank_sort_code)
 
 # print(Andrew.bank_sort_code)
 # Andrew.change_bank_details(33_45_29)

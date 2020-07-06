@@ -13,8 +13,12 @@ class DevOps_Student(Student_Data):
         self.stream = stream
         self.sparta_rank = sparta_rank
 
+    def email(self):
+        print("{}{}@spartaglobalDevOps.com".format(self.first_name[0], self.last_name))
+
     """
-    Polymorphism has been shown here
+    Polymorphism has been shown here, 
+    Additionally, I have created a method 'study' which was not available in the parent class
     
     """
 
@@ -35,5 +39,7 @@ class DevOps_Student(Student_Data):
 Andrew = DevOps_Student("Andrew", "Osborne", 21, "British/Caribbean", 21_23_46, "DevOps", 0)
 
 Andrew.study()
-
-Andrew.email()
+#
+# Andrew.email()
+#
+# Andrew.email()
